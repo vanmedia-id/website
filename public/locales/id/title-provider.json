@@ -1,6 +1,6 @@
 {
-  "_defaultValue": "Vanmedia",
-  "landing": "Vanmedia",
+  "_defaultValue": "Vanwave",
+  "landing": "Vanwave",
   "join-us": "Bergabung",
   "services": "Layanan",
   "calculator": "Cek Harga",
@@ -8,5 +8,6 @@
   "message-blast": "Message Blast",
   "call-blast": "Call Blast",
   "not-found": "Tidak Ditemukan",
-  "error": "Kesalahan"
+  "error": "Kesalahan",
+  "demo-logo": "Demo | Logo"
 }

@@ -270,6 +270,8 @@ code {
 }
 
 @theme {
+  --font-sora: 'Sora', sans-serif;
+
   --text-xs: 11px;
   --text-xs--line-height: 16px;
 

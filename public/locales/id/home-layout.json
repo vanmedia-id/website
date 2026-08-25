@@ -1,5 +1,4 @@
 {
-  "brand": "Vanmedia",
   "navbar": {
     "service": {
       "title": "Layanan",
@@ -33,6 +32,6 @@
         "join-us": "Bergabung Bersama Kami"
       }
     },
-    "copyright": "© 2026 Vanmedia. All rights reserved."
+    "copyright": "© 2026 Vanwave. All rights reserved."
   }
 }

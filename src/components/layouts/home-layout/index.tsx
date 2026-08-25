@@ -43,6 +43,7 @@ import { cn } from '@/lib/utils'
 import { useTheme, type Theme } from '@/context/theme-provider/use-theme'
 import { getHeaderStyles } from './header-styles'
 import { getFooterStyles } from './footer-styles'
+import { Logo } from '@/components/ui/logo'
 
 // prettier-ignore
 const links = [
@@ -77,12 +78,9 @@ function Header() {
         {/* Brand */}
         <Link
           to="/"
-          className={cn(
-            'flex items-center gap-2 text-lg font-bold tracking-tight',
-            styles.brand,
-          )}
+          className={cn('flex items-center gap-2', styles.brand)}
         >
-          <span>{t('brand')}</span>
+          <Logo variant='compact' size='sm' />
         </Link>
 
         {/* Long Header Menu (Desktop) */}
@@ -331,11 +329,7 @@ function Footer() {
           {/* 1. Brand Info & Language / Theme Selectors */}
           <div className="flex flex-col space-y-4">
             <div className="space-y-1">
-              <span
-                className={`block text-lg font-bold tracking-tight ${styles.headingPrimary}`}
-              >
-                {t('brand')}
-              </span>
+              <Logo variant='compact' size='sm' />
               <p className={`text-xs leading-relaxed ${styles.textMuted}`}>
                 {t('footer.brand.caption')}
               </p>
