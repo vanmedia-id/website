@@ -2,10 +2,10 @@
   "unit": "call",
   "model": "progressive",
   "tiers": [
-    { "name": "Tier 1", "step": 10, "unit": 1100.0 },
-    { "name": "Tier 2", "step": 50, "unit": 1050.0 },
-    { "name": "Tier 3", "step": 200, "unit": 1000.0 },
-    { "name": "Tier 4", "step": 600, "unit": 950.0 },
-    { "name": "Tier 5", "step": 1500, "unit": 900.0 }
+    { "name": "Tier 1", "step": 10, "unit": 1000.0 },
+    { "name": "Tier 2", "step": 50, "unit": 950.0 },
+    { "name": "Tier 3", "step": 200, "unit": 900.0 },
+    { "name": "Tier 4", "step": 600, "unit": 850.0 },
+    { "name": "Tier 5", "step": 1500, "unit": 800.0 }
   ]
 }
