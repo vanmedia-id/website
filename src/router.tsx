@@ -2,69 +2,71 @@ import { createBrowserRouter } from 'react-router'
 
 import RootLayout from './components/layouts/root-layout'
 import HomeLayout from './components/layouts/home-layout'
-import LandingPage from './pages/landing-page'
-import NotFoundPage from './pages/not-found-page'
-import GenericErrorPage from './pages/generic-error-page'
-import ServicesPage from './pages/services-page'
-import CalculatorPage from './pages/calculator-page'
-import JoinUsPage from './pages/join-us-page'
-import LiveOrderPage from './pages/live-order-page'
-import AvailableSoonPage from './pages/call-blast/available-soon-page'
-import IndexPage from './pages/message-blast/index-page'
+
+type Importer = () => Promise<{ default: React.ComponentType }>
+
+const lazyRoute = (importer: Importer) => {
+  return async () => {
+    const { default: Component } = await importer()
+    return { Component }
+  }
+}
 
 export const router = createBrowserRouter([
   {
-    element: <RootLayout />,
+    Component: RootLayout,
     children: [
       {
-        element: <HomeLayout />,
+        Component: HomeLayout,
         children: [
           {
             id: 'landing',
             path: '/',
-            element: <LandingPage />,
+            lazy: lazyRoute(() => import('./pages/landing-page')),
           },
           {
             id: 'services',
             path: 'services',
-            element: <ServicesPage />,
+            lazy: lazyRoute(() => import('./pages/services-page')),
           },
           {
             id: 'calculator',
             path: 'calculator',
-            element: <CalculatorPage />,
+            lazy: lazyRoute(() => import('./pages/calculator-page')),
           },
           {
             id: 'live-order',
             path: 'live-order',
-            element: <LiveOrderPage />,
+            lazy: lazyRoute(() => import('./pages/live-order-page')),
           },
           {
             id: 'join-us',
             path: 'join-us',
-            element: <JoinUsPage />,
+            lazy: lazyRoute(() => import('./pages/join-us-page')),
           },
         ],
       },
       {
         id: 'call-blast',
         path: 'call-blast',
-        element: <AvailableSoonPage />,
+        lazy: lazyRoute(
+          () => import('./pages/call-blast/available-soon-page'),
+        ),
       },
       {
         id: 'message-blast',
         path: 'message-blast',
-        element: <IndexPage />,
+        lazy: lazyRoute(() => import('./pages/message-blast/index-page')),
       },
       {
         id: 'error',
         path: 'error',
-        element: <GenericErrorPage />,
+        lazy: lazyRoute(() => import('./pages/generic-error-page')),
       },
       {
         id: 'not-found',
         path: '*',
-        element: <NotFoundPage />,
+        lazy: lazyRoute(() => import('./pages/not-found-page')),
       },
     ],
   },
