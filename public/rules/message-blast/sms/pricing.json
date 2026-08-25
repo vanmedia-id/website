@@ -1,0 +1,12 @@
+{
+  "unit": "message",
+  "model": "progressive",
+  "tiers": [
+    { "name": "Tier 1", "step": 10, "unit": 600.0 },
+    { "name": "Tier 2", "step": 50, "unit": 575.0 },
+    { "name": "Tier 3", "step": 200, "unit": 550.0 },
+    { "name": "Tier 4", "step": 600, "unit": 525.0 },
+    { "name": "Tier 5", "step": 1500, "unit": 500.0 },
+    { "name": "Tier 6", "step": 3000, "unit": 400.0 }
+  ]
+}

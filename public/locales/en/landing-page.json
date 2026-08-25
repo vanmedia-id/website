@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "hero": "Hero",
+    "feature": "Core Features & Services",
+    "faq": "Frequently Asked Questions"
+  },
+  "hero": {
+    "phone-badge": "With Just a Smartphone",
+    "heading": {
+      "prefix": "Earn Side Income",
+      "emphasis": "Up to IDR 2 Million",
+      "suffix": "Monthly"
+    },
+    "caption": "Join us today. With just a smartphone, you can easily start earning extra money every month hassle-free.",
+    "action": {
+      "join-now": "Join Now",
+      "service-price-check": "Check Service Pricing"
+    }
+  },
+  "feature": {
+    "heading": "Core Features & Services",
+    "caption": "Instant access to all our tools and transaction insights.",
+    "options": {
+      "0": {
+        "title": "Message Blast",
+        "description": "Send bulk messages easily using an instant form.",
+        "action": "Fill Order Form"
+      },
+      "1": {
+        "title": "Call Blast",
+        "description": "Multiple ringing call services tailored to your needs.",
+        "action": "Fill Order Form"
+      },
+      "2": {
+        "title": "Live Order",
+        "description": "Monitor transaction history and active orders transparently.",
+        "action": "View Status"
+      },
+      "3": {
+        "title": "Check Pricing",
+        "description": "Calculate a detailed cost estimate for your order.",
+        "action": "Calculate Cost"
+      }
+    }
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "caption": "Comprehensive details to help you understand our services and workflow.",
+    "content": [
+      {
+        "q": "How do I join?",
+        "a": "Simply click the \"Join Us\" menu, fill out the registration form, and our team will contact you via WhatsApp shortly for a quick verification process."
+      },
+      {
+        "q": "Is it true that I only need a smartphone?",
+        "a": "Yes, all work activities and system monitoring can be fully accessed using an Android or iOS smartphone without needing a computer/laptop."
+      },
+      {
+        "q": "When are registration and earnings processed?",
+        "a": "Earnings payout is processed regularly based on your performance and completed orders on the platform."
+      }
+    ]
+  }
+}

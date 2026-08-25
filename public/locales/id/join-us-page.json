@@ -1,0 +1,173 @@
+{
+  "action": {
+    "join-us": "Bergabung di WhatsApp",
+    "join-now": "Mulai Bergabung Sekarang"
+  },
+  "sections": {
+    "hero": "Hero",
+    "opportunity": "Peluang Apakah Ini?",
+    "requirements": "Sistem Kerja",
+    "hustle": "Pekerjaan Sampingan yang Ideal",
+    "payout": "Skema Pembayaran",
+    "target": "Kebutuhan dan Audiens",
+    "how-to": "Cara Bergabung",
+    "faq": "Pertanyaan yang Sering Diajukan",
+    "final": "Siap Menghasilkan Uang?"
+  },
+  "hero": {
+    "badge": "Dibutuhkan Agen Remote",
+    "heading": {
+      "l1": "Kerja Dari Mana Saja.",
+      "l2": "Hasilkan Uang Setiap Minggu."
+    },
+    "caption": "Ubah waktu luang Anda menjadi penghasilan mingguan yang konsisten. Jalankan pengiriman kampanye langsung dari ponsel Anda tanpa ribet—kami yang mengurus operasional, Anda yang menikmati hasilnya."
+  },
+  "opportunity": {
+    "heading": "Peluang Apakah Ini?",
+    "caption": {
+      "p1": "Kami sedang mencari",
+      "e1": "Agen Pengiriman",
+      "p2": "yang berdedikasi untuk menangani distribusi pesan dan operasional panggilan lokal. Tidak diperlukan pengalaman penjualan atau keahlian teknis. Tugas Anda sederhana: jalankan pengiriman sesuai jadwal dan dapatkan bayaran dengan tarif tetap yang terjamin."
+    },
+    "content": [
+      {
+        "$icon": "message-square",
+        "title": "Pesan Masal",
+        "description": "Distribusikan pesan siaran terjadwal menggunakan templat standar yang telah disiapkan."
+      },
+      {
+        "$icon": "phone-call",
+        "title": "Pengiriman Panggilan",
+        "description": "Picu antrean panggilan keluar sesuai dengan petunjuk langkah demi langkah yang jelas."
+      }
+    ]
+  },
+  "requirements": {
+    "heading": "100% Remote, Tanpa Hambatan",
+    "caption": "Semua yang Anda butuhkan ada di dalam genggaman Anda.",
+    "content": [
+      {
+        "$icon": "smartphone",
+        "title": "Smartphone",
+        "description": "Berjalan lancar di perangkat iOS atau Android standar apa pun. Tidak perlu laptop."
+      },
+      {
+        "$icon": "wifi",
+        "title": "Koneksi Internet",
+        "description": "Paket data seluler atau Wi-Fi yang stabil dapat menyelesaikan pekerjaan dengan lancar."
+      },
+      {
+        "$icon": "map-pin",
+        "title": "Lokasi Fleksibel",
+        "description": "Bekerja dari rumah, kafe, kampus, atau saat bepergian. Lokasi tidak pernah menjadi penghalang."
+      },
+      {
+        "$icon": "clock",
+        "title": "Jadwal Fleksibel",
+        "description": "Kerjakan tugas di waktu luang Anda—pagi hari, jam istirahat siang, atau malam hari."
+      }
+    ]
+  },
+  "hustle": {
+    "$icon": "zap",
+    "heading": "Jadikan Sampingan Ideal Anda",
+    "caption": "Tanpa jam kerja panjang atau politik kantor. Anda yang menentukan berapa banyak waktu yang ingin Anda luangkan setiap hari. Kami menyediakan manajemen backend, pengaturan antrean, dan daftar target—Anda yang menjalankan dan mengantongi keuntungannya."
+  },
+  "payout": {
+    "badge": "Pembayaran Terjamin",
+    "heading": "Dapatkan Bayaran Setiap Minggu",
+    "caption": {
+      "p1": "Kami percaya pada penghasilan yang dapat diprediksi. Setiap tugas kampanye yang diselesaikan akan dikreditkan ke akun Anda dengan ",
+      "e1": "persentase tarif tetap",
+      "p2": ". Tidak perlu menunggu hingga akhir bulan—penghasilan dihitung dan dibayarkan mingguan langsung ke rekening Anda."
+    },
+    "content": [
+      {
+        "$icon": "dollar-sign",
+        "param": "Struktur Pembayaran",
+        "value": "Tarif Tetap Per Unit Kerja"
+      },
+      {
+        "$icon": "calendar",
+        "param": "Frekuensi Pembayaran",
+        "value": "Setiap 7 Hari"
+      }
+    ]
+  },
+  "target": {
+    "needs": {
+      "heading": "Yang Kamu Butuhkan",
+      "content": [
+        "Smartphone yang berfungsi dengan baik (Android atau iOS)",
+        "Aplikasi pesan aktif & data seluler yang andal",
+        "Kemampuan dasar untuk mengikuti alur kerja",
+        "Konsistensi dan perhatian terhadap detail",
+        "Rekening bank atau e-wallet aktif untuk pembayaran"
+      ]
+    },
+    "audience": {
+      "heading": "Untuk Siapa?",
+      "content": [
+        {
+          "$icon": "graduation-cap",
+          "title": "Pelajar & Mahasiswa",
+          "description": "Hasilkan uang saku di sela-sela jam kuliah tanpa mengganggu jadwal belajar."
+        },
+        {
+          "$icon": "briefcase",
+          "title": "Karyawan",
+          "description": "Manfaatkan waktu luang di malam hari atau akhir pekan untuk penghasilan tambahan."
+        },
+        {
+          "$icon": "home",
+          "title": "Ibu Rumah Tangga",
+          "description": "Beban kerja fleksibel yang dapat Anda selesaikan sambil tetap berada di rumah."
+        }
+      ]
+    }
+  },
+  "how-to": {
+    "heading": "Cara Bergabung",
+    "caption": "Bergabung dan siap mengirimkan pesan hanya dalam 3 langkah mudah.",
+    "steps": [
+      {
+        "title": "Kirim Pesan ke Kami",
+        "description": "Klik tombol di bawah untuk memulai obrolan singkat di WhatsApp."
+      },
+      {
+        "title": "Pengarahan Singkat",
+        "description": "Kami berikan gambaran singkat tentang bagaimana tugas diberikan dan dicatat."
+      },
+      {
+        "title": "Mulai & Dapatkan Bayaran",
+        "description": "Terima kumpulan kampanye Anda, selesaikan pengiriman, dan dapatkan bayaran mingguan."
+      }
+    ]
+  },
+  "faq": {
+    "$icon": "help-circle",
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "content": [
+      {
+        "q": "Apakah saya memerlukan pengalaman sebelumnya atau keahlian teknis?",
+        "a": "Tidak diperlukan pengalaman. Kami mengelola semua persiapan kampanye, rute teknis, dan penargetan. Anda hanya perlu mengikuti petunjuk sederhana untuk memproses pengiriman."
+      },
+      {
+        "q": "Bagaimana dan kapan saya mendapatkan bayaran?",
+        "a": "Penghasilan dihitung berdasarkan tarif tetap per unit kerja yang diselesaikan. Pembayaran didistribusikan secara mingguan melalui transfer bank lokal atau e-wallet yang didukung."
+      },
+      {
+        "q": "Berapa jam waktu yang harus saya komit?",
+        "a": "Tidak ada persyaratan jam minimum. Anda bebas memilih kumpulan tugas berdasarkan ketersediaan waktu Anda."
+      },
+      {
+        "q": "Alat apa saja yang saya butuhkan untuk memulai?",
+        "a": "Cukup smartphone pribadi Anda dengan paket data internet yang aktif dan aplikasi WhatsApp terinstal."
+      }
+    ]
+  },
+  "final": {
+    "heading": "Siap Menghasilkan Uang?",
+    "caption": "Kendalikan waktu luang Anda dan amankan pembayaran mingguan Anda mulai hari ini."
+  }
+}

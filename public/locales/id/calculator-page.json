@@ -1,0 +1,55 @@
+{
+  "title": "Kalkulator Harga",
+  "heading": "Perhitungan Harga",
+  "caption": "Perkirakan biaya kampanye Anda secara instan berdasarkan volume dan saluran pengiriman.",
+  "tabs": {
+    "message-blast": "Message Blast",
+    "call-spam": "Call Spam"
+  },
+  "message-blast": {
+    "unit": "Pesan",
+    "title": "Pilih Message Blast",
+    "description": "Pilih saluran pengiriman dan tetapkan volume pesan standar.",
+    "channel": "Opsi Pengiriman",
+    "volume": {
+      "title": "Jumlah Pesan",
+      "description": "Sesuaikan volume batch sesuai kebutuhan Anda."
+    }
+  },
+  "call-spam": {
+    "unit": "Panggilan",
+    "title": "Pengaturan Panggilan",
+    "description": "Pilih saluran panggilan yang Anda inginkan.",
+    "channel": "Opsi Panggilan",
+    "volume": {
+      "title": "Jumlah Panggilan",
+      "description": "Sesuaikan volume batch sesuai kebutuhan Anda."
+    }
+  },
+  "cost-summary": {
+    "title": "Ringkasan Biaya",
+    "subtitle": "Perhitungan mengikuti rate tiap tier.",
+    "breakdown": "Rincian Biaya",
+    "total": {
+      "title": "Total Bersih",
+      "subtitle": "Harga final tanpa biaya tambahan."
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": {
+        "message-blast": "Pesan melalui WhatsApp dengan koneksi internet.",
+        "call-spam": "Telepon melalui WhatsApp dengan koneksi internet."
+      }
+    },
+    "sms": {
+      "title": "SMS",
+      "description": "Pesan melalui jaringan seluler."
+    },
+    "cellular": {
+      "title": "Seluler",
+      "description": "Panggilan suara melalui jaringan seluler."
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "action": {
+    "join-us": "Join Us on WhatsApp",
+    "join-now": "Mulai Bergabung Sekarang"
+  },
+  "sections": {
+    "hero": "Hero",
+    "opportunity": "What Is This Opportunity?",
+    "requirements": "Work Arrangement",
+    "hustle": "Ideal Side Hustle",
+    "payout": "Payout Scheme",
+    "target": "Needs and Audience",
+    "how-to": "How to Join",
+    "faq": "Frequently Asked Questions",
+    "final": "Ready to Start Earning?"
+  },
+  "hero": {
+    "badge": "Now Hiring Remote Agents",
+    "heading": {
+      "l1": "Work Anywhere.",
+      "l2": "Earn Every Single Week."
+    },
+    "caption": "Turn your free time into consistent weekly income. Execute campaign dispatches straight from your phone with zero hassle—we handle the ops, you take the cut."
+  },
+  "opportunity": {
+    "heading": "What Is This Opportunity?",
+    "caption": {
+      "p1": "We are looking for dedicated",
+      "e1": "Dispatch Agents",
+      "p2": "to handle localized message distribution and call operations. No sales experience or technical skills required. Your job is simple: execute dispatches on schedule and get paid guaranteed flat rates."
+    },
+    "content": [
+      {
+        "$icon": "message-square",
+        "title": "Message Blasts",
+        "description": "Distribute scheduled broadcast messages using standardized, pre-formatted templates."
+      },
+      {
+        "$icon": "phone-call",
+        "title": "Call Dispatches",
+        "description": "Trigger outbound call queues following explicit, step-by-step instructions."
+      }
+    ]
+  },
+  "requirements": {
+    "heading": "100% Remote, Zero Friction",
+    "caption": "Everything you need fits right inside your pocket.",
+    "content": [
+      {
+        "$icon": "smartphone",
+        "title": "Smartphone",
+        "description": "Runs effortlessly on any standard iOS or Android device. No laptop required."
+      },
+      {
+        "$icon": "wifi",
+        "title": "Internet Connection",
+        "description": "Any stable Wi-Fi or cellular data package gets the job done seamlessly."
+      },
+      {
+        "$icon": "map-pin",
+        "title": "Flexible Location",
+        "description": "Work from home, a cafe, campus, or while traveling. Location is never a barrier."
+      },
+      {
+        "$icon": "clock",
+        "title": "Flexible Schedule",
+        "description": "Pick up tasks during your free hours—mornings, lunch breaks, or late evenings."
+      }
+    ]
+  },
+  "hustle": {
+    "$icon": "zap",
+    "heading": "Make It Your Ideal Side Hustle",
+    "caption": "No long hours or office politics. You choose how much time you dedicate each day. We supply the backend management, queue setup, and target lists—you handle execution and pocket the profit."
+  },
+  "payout": {
+    "badge": "Guaranteed Payouts",
+    "heading": "Get Paid Every Single Week",
+    "caption": {
+      "p1": "We believe in predictable income. Every campaign task completed is credited to your account at a ",
+      "e1": "flat rate percentage",
+      "p2": ". No waiting until the end of the month—earnings are calculated and paid out weekly directly to your account."
+    },
+    "content": [
+      {
+        "$icon": "dollar-sign",
+        "param": "Payout Structure",
+        "value": "Flat Rate Per Work Unit"
+      },
+      {
+        "$icon": "calendar",
+        "param": "Payout Frequency",
+        "value": "Every 7 Days"
+      }
+    ]
+  },
+  "target": {
+    "needs": {
+      "heading": "What You Need",
+      "content": [
+        "A working smartphone (Android or iOS)",
+        "Active messaging app & reliable cellular data",
+        "Basic ability to follow workflow instructions",
+        "Consistency and attention to detail",
+        "An active bank account or e-wallet for payouts"
+      ]
+    },
+    "audience": {
+      "heading": "Who Is This For?",
+      "content": [
+        {
+          "$icon": "graduation-cap",
+          "title": "Students",
+          "description": "Earn pocket money between classes without disrupting study schedules."
+        },
+        {
+          "$icon": "briefcase",
+          "title": "Employed Individuals",
+          "description": "Monetize spare evening or weekend hours for extra secondary income."
+        },
+        {
+          "$icon": "home",
+          "title": "Stay-at-Home",
+          "description": "Flexible task loads you can complete while remaining at home."
+        }
+      ]
+    }
+  },
+  "how-to": {
+    "heading": "How to Join",
+    "caption": "Get onboarded and ready to dispatch in 3 simple steps.",
+    "steps": [
+      {
+        "title": "Message Us",
+        "description": "Click the button below to start a quick chat on WhatsApp."
+      },
+      {
+        "title": "Quick Briefing",
+        "description": "We give you a short overview of how tasks are assigned and logged."
+      },
+      {
+        "title": "Start & Get Paid",
+        "description": "Receive your campaign batches, complete dispatches, get paid weekly."
+      }
+    ]
+  },
+  "faq": {
+    "$icon": "help-circle",
+    "heading": "Frequently Asked Questions",
+    "content": [
+      {
+        "q": "Do I need prior experience or technical skills?",
+        "a": "No experience is required. We manage all campaign preparations, technical routing, and targeting. You just follow simple instructions to process dispatches."
+      },
+      {
+        "q": "How and when do I get paid?",
+        "a": "Earnings are calculated on a flat rate per completed work unit. Payouts are distributed weekly via local bank transfers or supported e-wallets."
+      },
+      {
+        "q": "How many hours do I need to commit?",
+        "a": "There are no minimum hourly requirements. You choose task batches based on your availability."
+      },
+      {
+        "q": "What tools do I need to get started?",
+        "a": "Just your personal smartphone with an active internet data plan and WhatsApp installed."
+      }
+    ]
+  },
+  "final": {
+    "heading": "Ready to Start Earning?",
+    "caption": "Take control of your free time and lock in your weekly payout starting today."
+  }
+}

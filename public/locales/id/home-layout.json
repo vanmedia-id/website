@@ -1,0 +1,38 @@
+{
+  "brand": "Vanmedia",
+  "navbar": {
+    "service": {
+      "title": "Layanan",
+      "message-blast": {
+        "title": "Message Blast",
+        "description": "Formulir kirim pesan massal dengan cepat."
+      },
+      "spam-call": {
+        "title": "Call Blast",
+        "description": "Formulir layanan panggilan otomatis."
+      }
+    },
+    "live-order": "Live Pesanan",
+    "price-calculator": "Cek Harga",
+    "join": "Bergabung"
+  },
+  "footer": {
+    "brand": {
+      "caption": "Layanan pesan dan panggilan yang fleksibel untuk promosi, kampanye, dan menjangkau pelanggan melalui berbagai saluran. Pilih layanan yang sesuai kebutuhan Anda dengan harga yang jelas, transparan, dan tanpa kerumitan yang tidak perlu."
+    },
+    "account": {
+      "title": "Akun Resmi"
+    },
+    "navigation": {
+      "title": "Navigasi Cepat",
+      "options": {
+        "form-message-blast": "Formulir Message Blast",
+        "form-spam-call": "Formulir Call Blast",
+        "live-order": "Live Order Pesanan",
+        "price-calculator": "Kalkulator Harga",
+        "join-us": "Bergabung Bersama Kami"
+      }
+    },
+    "copyright": "© 2026 Vanmedia. All rights reserved."
+  }
+}

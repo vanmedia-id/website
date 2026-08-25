@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "hero": "Hero",
+    "feature": "Fitur & Layanan Utama",
+    "faq": "Pertanyaan yang Sering Diajukan"
+  },
+  "hero": {
+    "phone-badge": "Cuma Modal Handphone",
+    "heading": {
+      "prefix": "Dapatkan Penghasilan Tambahan",
+      "emphasis": "Hingga Rp 2 Juta",
+      "suffix": "Per-Bulan"
+    },
+    "caption": "Bergabung bersama kami sekarang. Cukup dengan Handphone, Anda bisa mulai menghasilkan uang tambahan setiap bulan tanpa ribet.",
+    "action": {
+      "join-now": "Bergabung Sekarang",
+      "service-price-check": "Cek Harga Layanan"
+    }
+  },
+  "feature": {
+    "heading": "Fitur & Layanan Utama",
+    "caption": "Akses instan ke seluruh alat dan informasi transaksi kami.",
+    "options": {
+      "0": {
+        "title": "Message Blast",
+        "description": "Kirim pesan massal dengan mudah melalui formulir instan.",
+        "action": "Buka Formulir"
+      },
+      "1": {
+        "title": "Call Blast",
+        "description": "Layanan panggilan otomatis sesuai kebutuhan Anda.",
+        "action": "Buka Formulir"
+      },
+      "2": {
+        "title": "Live Pesanan",
+        "description": "Pantau riwayat transaksi dan pesanan berjalan secara transparan.",
+        "action": "Lihat Status"
+      },
+      "3": {
+        "title": "Cek Harga",
+        "description": "Hitung estimasi biaya pesanan Anda secara rinci.",
+        "action": "Hitung Biaya"
+      }
+    }
+  },
+  "faq": {
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "caption": "Informasi lengkap untuk membantu Anda memahami layanan dan proses penggunaan kami.",
+    "content": [
+      {
+        "q": "Bagaimana cara bergabung?",
+        "a": "Cukup klik menu \"Bergabung Bersama Kami\", isi formulir pendataan, dan tim kami akan segera menghubungi Anda melalui WhatsApp untuk proses verifikasi singkat."
+      },
+      {
+        "q": "Apakah benar hanya menggunakan Handphone?",
+        "a": "Ya, seluruh aktivitas kerja dan pemantauan sistem dapat diakses secara penuh menggunakan smartphone Android maupun iOS tanpa perlu komputer/laptop."
+      },
+      {
+        "q": "Kapan pendaftaran dan pendapatan diproses?",
+        "a": "Proses pencairan pendapatan dilakukan secara rutin berkala sesuai dengan performa dan pesanan yang berhasil diselesaikan pada platform."
+      }
+    ]
+  }
+}

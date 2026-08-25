@@ -1,0 +1,38 @@
+{
+  "brand": "Vanmedia",
+  "navbar": {
+    "service": {
+      "title": "Services",
+      "message-blast": {
+        "title": "Message Blast",
+        "description": "Fast bulk messaging form."
+      },
+      "spam-call": {
+        "title": "Call Blast",
+        "description": "Bulk ringing call service form."
+      }
+    },
+    "live-order": "Live Orders",
+    "price-calculator": "Check Pricing",
+    "join": "Join Us"
+  },
+  "footer": {
+    "brand": {
+      "caption": "Flexible messaging and call services for promotions, campaigns, and customer outreach across multiple channels. Choose what you need with clear, transparent pricing and no unnecessary complexity."
+    },
+    "account": {
+      "title": "Official Account"
+    },
+    "navigation": {
+      "title": "Quick Navigation",
+      "options": {
+        "form-message-blast": "Message Blast Form",
+        "form-spam-call": "Call Blast Form",
+        "live-order": "Live Order Status",
+        "price-calculator": "Price Calculator",
+        "join-us": "Join Us"
+      }
+    },
+    "copyright": "© 2026 Vanmedia. All rights reserved."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Price Calculator",
+  "heading": "Calculate Pricing",
+  "caption": "Estimate your campaign costs instantly based on volume and delivery channels.",
+  "tabs": {
+    "message-blast": "Message Blast",
+    "call-spam": "Call Spam"
+  },
+  "message-blast": {
+    "unit": "Messages",
+    "title": "Message Blast Option",
+    "description": "Select delivery channel and set standard message volume.",
+    "channel": "Delivery Channel",
+    "volume": {
+      "title": "Number of Messages",
+      "description": "Adjust the batch volume according to your needs."
+    }
+  },
+  "call-spam": {
+    "unit": "Calls",
+    "title": "Call Setup",
+    "description": "Select your preferred call channel.",
+    "channel": "Call Channel",
+    "volume": {
+      "title": "Number of Calls",
+      "description": "Adjust the batch volume according to your needs."
+    }
+  },
+  "cost-summary": {
+    "title": "Cost Summary",
+    "subtitle": "The calculation follows the rate for each tier.",
+    "breakdown": "Cost Breakdown",
+    "total": {
+      "title": "Net Total",
+      "subtitle": "Final price with no extra fees."
+    }
+  },
+  "channels": {
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": {
+        "message-blast": "Pesan melalui WhatsApp dengan koneksi internet.",
+        "call-spam": "Telepon melalui WhatsApp dengan koneksi internet."
+      }
+    },
+    "sms": {
+      "title": "SMS",
+      "description": "Pesan melalui jaringan seluler."
+    },
+    "cellular": {
+      "title": "Cellular",
+      "description": "Panggilan suara melalui jaringan seluler."
+    }
+  }
+}

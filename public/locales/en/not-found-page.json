@@ -1,0 +1,9 @@
+{
+  "title": "Not Found",
+  "heading": "Content Not Found",
+  "caption": "The page or content you are looking for doesn't exist or has been moved.",
+  "action": {
+    "go-back": "Go Back",
+    "go-home": "Back to Home"
+  }
+}
