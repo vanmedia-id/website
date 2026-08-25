@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router'
 import RootLayout from './components/layouts/root-layout'
 import HomeLayout from './components/layouts/home-layout'
 import DemoLayout from './components/layouts/demo-layout'
+import DemoPage from './pages/demo'
 
 type Importer = () => Promise<{ default: React.ComponentType }>
 
@@ -76,10 +77,19 @@ export const router = createBrowserRouter([
     path: 'demo',
     children: [
       {
+        index: true,
+        element: <DemoPage />,
+      },
+      {
         id: 'demo-logo',
         path: 'logo',
         lazy: lazyRoute(() => import('./pages/demo/logo-page')),
-      }
+      },
+      {
+        id: 'demo-catalogue',
+        path: 'catalogue',
+        lazy: lazyRoute(() => import('./pages/demo/catalogue-page')),
+      },
     ]
   }
 ])

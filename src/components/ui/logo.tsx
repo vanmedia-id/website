@@ -31,10 +31,10 @@ const compactVariants = cva("font-sora font-[700] tracking-tight leading-none", 
   },
 })
 
-const iconVariants = cva("flex pt-1 items-center justify-center rounded-full shrink-0", {
+const iconVariants = cva("flex pt-0.5 items-center justify-center rounded-full shrink-0", {
   variants: {
     size: {
-      sm: "size-8 [&_span]:text-[16px]",
+      sm: "size-8 [&_span]:text-[18px]",
       md: "size-12 [&_span]:text-[32px]",
       lg: "size-16 [&_span]:text-[48px]",
     },

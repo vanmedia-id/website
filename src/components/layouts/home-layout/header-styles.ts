@@ -5,7 +5,6 @@ export function getHeaderStyles(theme: ResolvedTheme) {
     case 'dark':
       return {
         header: 'border-slate-800 bg-slate-950/80 text-slate-100',
-        brand: 'text-emerald-400',
         icon: 'text-emerald-400',
         dropdownMenu: 'bg-slate-900 text-slate-100',
         dropdownItem:
@@ -25,7 +24,6 @@ export function getHeaderStyles(theme: ResolvedTheme) {
     default:
       return {
         header: 'border-slate-200 bg-white/80 text-slate-900',
-        brand: 'text-primary',
         icon: 'text-primary',
         dropdownMenu: 'bg-white text-slate-900',
         dropdownItem:

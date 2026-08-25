@@ -1,8 +1,9 @@
-import { Outlet } from "react-router"
+import { Link, Outlet } from "react-router"
 import { Monitor, Moon, Sun } from "lucide-react"
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger } from "@/components/ui/select"
 import { getThemePickerStyles } from "./header-styles"
 import { cn } from "@/lib/utils"
+import { Logo } from "@/components/ui/logo"
 import { useTheme } from "@/context/theme-provider/use-theme"
 import ThemeProvider from "@/context/theme-provider/theme-provider"
 import TitleProvider from "@/context/title-provider"
@@ -56,9 +57,13 @@ function ThemePicker() {
 function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center justify-between px-4">
+      <div className="container mx-auto flex h-12 items-center justify-between px-6">
         {/* Left Section: App Logo & Demo Indicator */}
         <div className="flex items-center gap-3">
+          {/* Brand */}
+          <Link to="/" className='flex items-center gap-2'>
+            <Logo variant='compact' size='sm' />
+          </Link>
           {/* Demo Indicator Badge */}
           <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-500/20 bg-amber-500/10 px-2.5 py-0.5 text-xs font-medium text-amber-600 dark:text-amber-400">
             <span className="relative flex h-1.5 w-1.5">
@@ -81,7 +86,7 @@ function Header() {
 function DemoLayout() {
   return (
     <ThemeProvider>
-      <div className="relative min-h-screen flex flex-col bg-background text-foreground">
+      <div className="relative min-h-screen flex flex-col">
         <Header />
         <TitleProvider />
         <main className="flex-1">

@@ -26,7 +26,6 @@ import {
   Sheet,
   SheetContent,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
 import {
@@ -76,10 +75,7 @@ function Header() {
     >
       <div className="container mx-auto flex h-12 items-center justify-between px-6">
         {/* Brand */}
-        <Link
-          to="/"
-          className={cn('flex items-center gap-2', styles.brand)}
-        >
+        <Link to="/" className='flex items-center gap-2'>
           <Logo variant='compact' size='sm' />
         </Link>
 
@@ -213,9 +209,7 @@ function Header() {
               <SheetHeader
                 className={cn('text-left border-b pb-4', styles.sheetBorder)}
               >
-                <SheetTitle className={cn('text-lg font-bold', styles.brand)}>
-                  {t('brand')}
-                </SheetTitle>
+                <Logo variant='compact' size='sm' />
               </SheetHeader>
 
               <div className="flex flex-col space-y-4 py-4">
