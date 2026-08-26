@@ -136,11 +136,6 @@ function LogoDownloadDropdown() {
       setIsExporting(true)
 
       const zip = new JSZip()
-      const variants: BrandVariant[] = [
-        "default",
-        "compact",
-        "icon",
-      ]
 
       for (const variant of variants) {
         const lightData = await generatePng(refs[variant].light)

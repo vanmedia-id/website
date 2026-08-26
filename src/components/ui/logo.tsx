@@ -44,7 +44,7 @@ const iconVariants = cva("flex pt-0.5 items-center justify-center rounded-full s
   },
 })
 
-const iconRoundedVariants = cva("flex pt-1 items-center justify-center shrink-0", {
+const iconRoundedVariants = cva("flex pt-0.5 items-center justify-center shrink-0", {
   variants: {
     size: {
       sm: "size-8 rounded-[8px] [&_span]:text-[16px]",
@@ -104,7 +104,7 @@ function Default({ theme, size, className }: { theme: ResolvedTheme; size?: Logo
         <span className={style.text.w0}>van</span>
         <span className={style.text.w1}>wave</span>
       </div>
-      <div className={cn("font-[400]", style.text.tl)}>
+      <div className={cn("font-[600]", style.text.tl)}>
         <span>send. reach. grow.</span>
       </div>
     </div>
